@@ -87,9 +87,12 @@ header{
 .lista3{
     position: relative;
     top: 0px;
-    right: 34px;
+    right: 43px;
     margin-right: -35%;
     opacity: .6;
+    transition: .5s;
+
+    
 
 }
 
@@ -99,6 +102,8 @@ header{
     right: -39px;
     margin-right: -35%;
     opacity: .6;
+    transition: .5s;
+
 
 
 
@@ -107,9 +112,17 @@ header{
 .lista1{
     position: relative;
     top: 0px;
-    right: 84px;
+    right: 100px;
     margin-right: -35%;
     opacity: .6;
+    transition: .5s;
+
+
+
+}
+
+.lista1:hover, .lista2:hover, .lista3:hover{
+    font-size: 110%;
 
 
 }
