@@ -1,3 +1,13 @@
+h1 h2 h3{
+    font-family:'Georgia', Times, Times New Roman, serif;
+
+}
+
+a p div {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
 .mainContainer{
     width: 960px;
     height: auto;
@@ -14,6 +24,7 @@
 
 }
 header{
+    z-index: 1000;
     position: fixed;
     width: 100%;
     height: 100px;
@@ -39,9 +50,23 @@ header{
     text-align: center;
 }
 
+::placeholder{
+    opacity: .5;
+
+}
+
 .nombre h1{
-    padding-top: 13%;
+    padding-top: 17%;
+    text-decoration: none;
+    
                 
+}
+
+.names{
+    text-decoration: none;
+    color: white;
+    
+
 }
 
 .menuUL{
@@ -62,15 +87,19 @@ header{
 .lista3{
     position: relative;
     top: 0px;
-    right: -39px;
+    right: 34px;
     margin-right: -35%;
+    opacity: .6;
+
 }
 
 .lista2{
     position: relative;
     top: 0px;
-    right: 24px;
+    right: -39px;
     margin-right: -35%;
+    opacity: .6;
+
 
 
 }
@@ -80,6 +109,7 @@ header{
     top: 0px;
     right: 84px;
     margin-right: -35%;
+    opacity: .6;
 
 
 }
@@ -90,8 +120,9 @@ a {
 }
 
 .aboutMe{
-    width: 960px;   
-    height: 450px;
+    width: 960px;
+    height: auto;
+    margin-bottom: 88px;
     background-color: #fff;
     margin-left: 22%;
     margin-top: 8%;
@@ -99,12 +130,21 @@ a {
     text-align: start;
 }
 
+.contInter2{
+    width: 565px;
+    height: auto;
+    margin-left: 17px;
+    margin-bottom: 25px;
+
+
+}
+
 .contInter{
-    width: 930px;
-    height: 420px;
     width: 900px;
     height: auto;
     margin-left: 17px;
+    margin-bottom: 25px;
+
 
 }
 
@@ -118,7 +158,8 @@ footer{
 	font-size: 10px;
 	color: #cccccc;
 	background-color: #666666;
-	border-top: 7px solid #4aaaa5;
+    border-top: 7px solid #4aaaa5;
+    margin-top: 20px;
 
 
 }
@@ -132,10 +173,23 @@ footer{
 
 }
 
+.portfolio-space h1 {
+    color: #4aaaa5;
+    margin-left: 3%;
+    padding-top: 3%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+
+}
+
 hr{
     width: 900px;
     color: rgba(153, 150, 150, 0.726);
     opacity: .5;
+    margin-bottom: 20px;
+    border-style: solid;
+    margin-top: 20px;
+
 
 }
 
@@ -181,6 +235,53 @@ textarea{
  height: 30px;
  background-color: #4aaaa5;
  margin-top: 3px;
+}
+
+/*portfolio*/
+
+.items{
+    display: inline-block;
+    position: relative;
+    MARGIN-RIGHT: 50PX;
+
+
+
+}
+
+.item-name{
+    position: relative;
+	top: -100px;
+	text-align: center;
+	background-color: #4aaaa5;
+	padding: 1em;
+    color: #ffffff;
+    font-size: 15px;
+    top: -57px;
+
+
+	
+
+
+
+}
+
+.portimg{
+    width: 200px;
+    height: 200px;
+
+}
+
+
+.portfolio-space{
+    width: 960px;
+    height: 806px;
+    margin-bottom: 88px;
+    background-color: #fff;
+    margin-left: 22%;
+    margin-top: 8%;
+    display: inline-block;
+    text-align: start;
+
 }
 
 
