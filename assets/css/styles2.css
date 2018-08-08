@@ -42,7 +42,7 @@ header{
     width: 200px;
     height: 100px;
     background-color: #4aaaa5;
-    font-size: 10px;
+    font-size: 23px;
     color: white;
     padding: 1px;
     margin-left: 15%;
@@ -182,6 +182,8 @@ footer{
     margin-left: 3%;
     padding-top: 3%;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 26px;
+
 
 
 }
@@ -192,6 +194,8 @@ footer{
     padding-top: 3%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
+    font-size: 26px;
+
 
 }
 
