@@ -65,7 +65,13 @@ header{
 .names{
     text-decoration: none;
     color: white;
+    transition: 1s;
     
+
+}
+
+.names:hover{
+    color: yellow;
 
 }
 
